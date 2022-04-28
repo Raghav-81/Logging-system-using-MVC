@@ -55,8 +55,8 @@ public class Controller {
   JOptionPane.showMessageDialog(null, "Logged at " + model.gettime(), "Info", JOptionPane.INFORMATION_MESSAGE);
  }
 
- public void db_conn() {
-  db_conn.db_insert();
+ public void db_conn(String Fname, String Lname, String time) {
+  db_conn.db_insert(Fname, Lname, time);
 }
 
  
